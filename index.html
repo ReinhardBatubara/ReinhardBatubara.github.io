@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reinhard Batubara — Portfolio Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header>
+    <div class="container header-inner">
+      <div>
+        <div class="logo">REINHARD BATUBARA</div>
+        <div class="logo-sub">Apple Developer Academy Applicant</div>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/ReinhardBatubara" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/reinhardbatubara" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Header Profile -->
+    <section class="hero">
+      <div class="avatar-container">
+        <!-- We fall back to a styled avatar placeholder or actual user photo if available -->
+        <img src="assets/avatar.jpg" alt="Reinhard Batubara" onerror="this.src='https://avatars.githubusercontent.com/u/108523789?v=4';">
+      </div>
+      <h1>Hi, I'm <span>Reinhard Batubara</span></h1>
+      <p class="tagline">An Information Systems student at Del Institute of Technology, specializing in Full-Stack web development, AI integration, and database systems design.</p>
+      
+      <div class="contact-meta">
+        <span><i class="fas fa-map-marker-alt"></i> Toba, Indonesia</span>
+        <span><i class="fas fa-envelope"></i> reinhardbatubara607@gmail.com</span>
+        <span><i class="fas fa-phone"></i> +6281377971480</span>
+      </div>
+    </section>
+
+    <!-- Professional Summary -->
+    <section style="margin-bottom: 50px;">
+      <h2 class="section-title">About Me</h2>
+      <p style="color: var(--text-secondary); line-height: 1.7; font-size: 1rem;">
+        I am an undergraduate student in Information Systems with hands-on experience in building robust web applications, ERP systems, and structured database solutions. I am skilled in Java, PHP, JavaScript, and Python, with a strong interest in integrating artificial intelligence (such as Generative AI and CNNs) into products. I love solving problems, collaborating with cross-functional teams, and continuously learning new technologies.
+      </p>
+    </section>
+
+    <!-- Showcase Projects -->
+    <section>
+      <h2 class="section-title">Featured Projects</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 20px;">Below is the selection of my best work representing my development capabilities in AI, enterprise databases, e-commerce, and community systems.</p>
+      
+      <div class="grid">
+        <!-- Project 1: Ulos Simulator -->
+        <div class="card">
+          <div class="card-top">
+            <span class="card-tag">Thesis Project</span>
+            <h3 class="card-title">Ulos Simulator — Batak Fabric Classifier AI</h3>
+            <p class="card-desc">An AI-powered web system utilizing a custom MobileNetV2 CNN model to automatically classify 14 types of Batak Ulos fabrics from photos, integrated with a RAG chatbot for cultural education.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-lang">Python & TensorFlow</span>
+            <a href="project1.html" class="btn-primary">View Project <i class="fas fa-arrow-right" style="margin-left: 6px; font-size: 0.8rem;"></i></a>
+          </div>
+        </div>
+
+        <!-- Project 2: DelDeals -->
+        <div class="card">
+          <div class="card-top">
+            <span class="card-tag">Class Assignment</span>
+            <h3 class="card-title">DelDeals — Campus Student E-commerce</h3>
+            <p class="card-desc">A web e-commerce platform built for the Del Institute of Technology student community, enabling secure user authentication, product listings, and peer transactions.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-lang">Laravel & MySQL</span>
+            <a href="project2.html" class="btn-primary">View Project <i class="fas fa-arrow-right" style="margin-left: 6px; font-size: 0.8rem;"></i></a>
+          </div>
+        </div>
+
+        <!-- Project 3: Ebako ERP -->
+        <div class="card">
+          <div class="card-top">
+            <span class="card-tag">Work Internship</span>
+            <h3 class="card-title">ERP Web System — Ebako</h3>
+            <p class="card-desc">An enterprise resource planning (ERP) web application to support and automate operational logistics and workflow systems during a professional internship.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-lang">Web Development</span>
+            <a href="project3.html" class="btn-primary">View Project <i class="fas fa-arrow-right" style="margin-left: 6px; font-size: 0.8rem;"></i></a>
+          </div>
+        </div>
+
+        <!-- Project 4: HKBP Church -->
+        <div class="card">
+          <div class="card-top">
+            <span class="card-tag">PKM Project</span>
+            <h3 class="card-title">HKBP Sigumpar Church Website</h3>
+            <p class="card-desc">A community portal built to support event scheduling, announcement delivery, and organization coordination for the HKBP Sigumpar church.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-lang">Web Development</span>
+            <a href="project4.html" class="btn-primary">View Project <i class="fas fa-arrow-right" style="margin-left: 6px; font-size: 0.8rem;"></i></a>
+          </div>
+        </div>
+
+        <!-- Project 5: Madrasah Web -->
+        <div class="card">
+          <div class="card-top">
+            <span class="card-tag">PKM Project</span>
+            <h3 class="card-title">Madrasah Website Project</h3>
+            <p class="card-desc">An educational web portal designed to coordinate administrative details, school schedules, and school notifications for student families.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-lang">Vanilla CSS & DB</span>
+            <a href="project5.html" class="btn-primary">View Project <i class="fas fa-arrow-right" style="margin-left: 6px; font-size: 0.8rem;"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Reinhard Batubara. All Rights Reserved. Built for Apple Developer Academy Indonesia.</p>
+    </div>
+  </footer>
+</body>
+</html>
